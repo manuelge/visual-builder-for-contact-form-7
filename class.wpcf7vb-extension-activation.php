@@ -90,6 +90,10 @@ class wpcf7_Extension_Activation {
             $link = '<a href="' . $url . '">' . __( 'install it', 'visual-builder-for-contact-form-7' ) . '</a>';
         }
         
-        echo '<div class="error"><p>' . $this->plugin_name . sprintf( __( ' requires Contact Form 7! Please %s first and then activate this.', 'visual-builder-for-contact-form-7' ), $link ) . '</p></div>';
+        if ( ! current_user_can( 'activate_plugins' ) ) {
+            return;
+        }
+
+        echo '<div class="error"><p>' . esc_html( $this->plugin_name ) . sprintf( __( ' requires Contact Form 7! Please %s first and then activate this.', 'visual-builder-for-contact-form-7' ), $link ) . '</p></div>';
     }
 }

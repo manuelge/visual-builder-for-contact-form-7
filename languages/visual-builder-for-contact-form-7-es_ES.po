@@ -1,42 +1,28 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Visual Builder for Contact Form 7\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-16 23:06+0000\n"
-"PO-Revision-Date: 2021-09-16 20:28-0300\n"
-"Last-Translator: \n"
+"Project-Id-Version: Visual Builder for Contact Form 7 3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/visual-builder-for-contact-form-7\n"
+"POT-Creation-Date: 2026-09-25 01:17+0000\n"
+"PO-Revision-Date: 2026-09-25 01:17+0000\n"
 "Language-Team: Spanish (Spain)\n"
 "Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
-"X-Loco-Version: 2.5.3; wp-5.8.1\n"
 "X-Domain: visual-builder-for-contact-form-7\n"
 
-#: ../../../../../../Wordpress/GIT/visual-builder-for-contact-form-7/class.wpcf7vb-extension-activation.php:93
-#, php-format
-msgid " requires Contact Form 7! Please %s first and then activate this."
-msgstr ""
-" requiere Formulario de Contacto 7! Por favor, %s antes y, a continuación, "
-"activa este."
+#. Name of the plugin
+msgid "Visual Builder for Contact Form 7"
+msgstr "Creador Visual para Contact Form 7"
 
-#: ../../../../../../Wordpress/GIT/visual-builder-for-contact-form-7/class.wpcf7vb-extension-activation.php:87
-msgid "activate it"
-msgstr "activarlo"
+#. URI of the plugin
+msgid "https://etruel.com/downloads/visual-builder-contact-form-7/"
+msgstr ""
 
 #. Description of the plugin
-msgid ""
-"Adds a Visual Builder for contact form 7 forms.  ADD-on.  Requires Contact "
-"Form 7 Plugin."
-msgstr ""
-"Añade un Generador Visual para el formulario de contacto 7. ADD-on. "
-"Requiere el plugin Formulario De Contacto 7."
-
-#: ../../../../../../Wordpress/GIT/visual-builder-for-contact-form-7/cf7-visual-builder.php:534
-msgid "Colors Scheme"
-msgstr "Combinación De Colores"
+msgid "Build Contact Form 7 forms visually: drag & drop fields, live preview, one-click field editing and a code editor, side by side. Requires Contact Form 7."
+msgstr "Crea formularios de Contact Form 7 de forma visual: arrastra los campos, míralos en vista previa en vivo, edítalos con un clic y con el editor de código al lado. Requiere Contact Form 7."
 
 #. Author of the plugin
 msgid "Etruel Developments LLC"
@@ -46,27 +32,275 @@ msgstr "Etruel Developments LLC"
 msgid "https://etruel.com"
 msgstr ""
 
-#. URI of the plugin
-msgid "https://etruel.com/downloads/visual-builder-contact-form-7/"
-msgstr ""
+#. translators: 1: required Contact Form 7 version, 2: installed version
+#: cf7-visual-builder.php:82
+#, php-format
+msgid "Visual Builder for Contact Form 7 needs Contact Form 7 %1$s or newer (installed: %2$s). Please update Contact Form 7 to use the Visual Builder."
+msgstr "Creador Visual para Contact Form 7 necesita Contact Form 7 %1$s o superior (instalada: %2$s). Actualiza Contact Form 7 para usar el Creador Visual."
 
-#: ../../../../../../Wordpress/GIT/visual-builder-for-contact-form-7/class.wpcf7vb-extension-activation.php:90
-msgid "install it"
-msgstr "instalarlo"
-
-#: ../../../../../../Wordpress/GIT/visual-builder-for-contact-form-7/cf7-visual-builder.php:100
-msgid "Save to change order"
-msgstr "Guardar para cambiar el orden"
-
-#: ../../../../../../Wordpress/GIT/visual-builder-for-contact-form-7/class.wpcf7vb-extension-activation.php:50
+#: class.wpcf7vb-extension-activation.php:50
 msgid "This plugin"
 msgstr "Este plugin"
 
-#. Name of the plugin
-msgid "Visual Builder for Contact Form 7"
-msgstr "Creador Visual para el Formulario de Contacto 7"
+#: class.wpcf7vb-extension-activation.php:87
+msgid "activate it"
+msgstr "activarlo"
 
-#: ../../../../../../Wordpress/GIT/visual-builder-for-contact-form-7/cf7-visual-builder.php:470
-#: ../../../../../../Wordpress/GIT/visual-builder-for-contact-form-7/cf7-visual-builder.php:498
+#: class.wpcf7vb-extension-activation.php:90
+msgid "install it"
+msgstr "instalarlo"
+
+#: class.wpcf7vb-extension-activation.php:97
+#, php-format
+msgid " requires Contact Form 7! Please %s first and then activate this."
+msgstr " ¡requiere Contact Form 7! Por favor, %s antes y después activa este."
+
+#: includes/class-wpecf7vb-admin.php:44
+msgid "Default"
+msgstr "Predeterminado"
+
+#: includes/class-wpecf7vb-admin.php:116
 msgid "Visual Form"
 msgstr "Formulario Visual"
+
+#: includes/class-wpecf7vb-admin.php:200
+msgid "Block"
+msgstr "Bloque"
+
+#: includes/class-wpecf7vb-admin.php:201
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/class-wpecf7vb-admin.php:202
+msgid "Text"
+msgstr "Texto"
+
+#: includes/class-wpecf7vb-admin.php:203
+msgid "Required"
+msgstr "Obligatorio"
+
+#: includes/class-wpecf7vb-admin.php:204
+msgid "Move up"
+msgstr "Subir"
+
+#: includes/class-wpecf7vb-admin.php:205
+msgid "Move down"
+msgstr "Bajar"
+
+#: includes/class-wpecf7vb-admin.php:206
+msgid "Drag to reorder"
+msgstr "Arrastra para reordenar"
+
+#: includes/class-wpecf7vb-admin.php:207
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/class-wpecf7vb-admin.php:208
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: includes/class-wpecf7vb-admin.php:209
+msgid "Delete"
+msgstr "Borrar"
+
+#: includes/class-wpecf7vb-admin.php:210
+msgid "Undo"
+msgstr "Deshacer"
+
+#: includes/class-wpecf7vb-admin.php:211
+msgid "Block deleted."
+msgstr "Bloque borrado."
+
+#. translators: %d: new position of the block
+#: includes/class-wpecf7vb-admin.php:213
+#, php-format
+msgid "Block moved to position %d."
+msgstr "Bloque movido a la posición %d."
+
+#: includes/class-wpecf7vb-admin.php:214
+msgid "Block duplicated."
+msgstr "Bloque duplicado."
+
+#: includes/class-wpecf7vb-admin.php:215
+msgid "Form-tag inserted."
+msgstr "Etiqueta de formulario insertada."
+
+#: includes/class-wpecf7vb-admin.php:216
+msgid "New fields go at the code cursor"
+msgstr "Los campos nuevos van en el cursor del código"
+
+#. translators: %d: block number
+#: includes/class-wpecf7vb-admin.php:218
+#, php-format
+msgid "New fields go after block %d · Click to use the code cursor"
+msgstr "Los campos nuevos van después del bloque %d · Haz clic para usar el cursor del código"
+
+#: includes/class-wpecf7vb-admin.php:219
+msgid "Block updated."
+msgstr "Bloque actualizado."
+
+#: includes/class-wpecf7vb-admin.php:220
+msgid "Updating preview…"
+msgstr "Actualizando la vista previa…"
+
+#: includes/class-wpecf7vb-admin.php:221
+msgid "The preview could not be updated. Your form is not affected."
+msgstr "No se pudo actualizar la vista previa. Tu formulario no se ha modificado."
+
+#: includes/class-wpecf7vb-admin.php:222
+msgid "Retry"
+msgstr "Reintentar"
+
+#: includes/class-wpecf7vb-admin.php:223
+msgid "1 block"
+msgstr "1 bloque"
+
+#. translators: %d: number of blocks in the form, always more than one
+#: includes/class-wpecf7vb-admin.php:225
+#, php-format
+msgid "%d blocks"
+msgstr "%d bloques"
+
+#: includes/class-wpecf7vb-admin.php:226
+msgid "This block has no visible output."
+msgstr "Este bloque no muestra nada visible."
+
+#: includes/class-wpecf7vb-admin.php:227
+msgid "Styles for the form. They are applied on your site, not in this preview."
+msgstr "Estilos del formulario. Se aplican en tu sitio, no en esta vista previa."
+
+#: includes/class-wpecf7vb-admin.php:228
+msgid "Script for the form. It runs on your site, not in this preview."
+msgstr "Script del formulario. Se ejecuta en tu sitio, no en esta vista previa."
+
+#: includes/class-wpecf7vb-admin.php:229
+msgid "Edit block"
+msgstr "Editar bloque"
+
+#: includes/class-wpecf7vb-admin.php:230
+msgid "Form-tag"
+msgstr "Etiqueta de formulario"
+
+#: includes/class-wpecf7vb-admin.php:231
+msgid "Label"
+msgstr "Etiqueta"
+
+#: includes/class-wpecf7vb-admin.php:232
+msgid "Text shown with the field. Leave it empty for no label."
+msgstr "Texto que se muestra con el campo. Déjalo vacío para no poner etiqueta."
+
+#: includes/class-wpecf7vb-admin.php:233
+msgid "Title of the group of choices, shown as a fieldset legend. Leave it empty for none."
+msgstr "Título del grupo de opciones, se muestra como leyenda de un fieldset. Déjalo vacío para no ponerlo."
+
+#: includes/class-wpecf7vb-admin.php:234
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/class-wpecf7vb-admin.php:235
+msgid "Options"
+msgstr "Opciones"
+
+#: includes/class-wpecf7vb-admin.php:236
+msgid "Space separated, e.g. id:my-id class:my-class placeholder autocomplete:email"
+msgstr "Separadas por espacios, p. ej. id:mi-id class:mi-clase placeholder autocomplete:email"
+
+#: includes/class-wpecf7vb-admin.php:237
+msgid "Values"
+msgstr "Valores"
+
+#: includes/class-wpecf7vb-admin.php:238
+msgid "One per line. For drop-down menus, checkboxes and radio buttons each line is a choice."
+msgstr "Uno por línea. En menús desplegables, casillas y botones de opción cada línea es una opción."
+
+#: includes/class-wpecf7vb-admin.php:239
+msgid "Content"
+msgstr "Contenido"
+
+#: includes/class-wpecf7vb-admin.php:240
+msgid "Block source"
+msgstr "Código del bloque"
+
+#: includes/class-wpecf7vb-admin.php:241
+msgid "Everything this block contains: labels, HTML and form-tags."
+msgstr "Todo lo que contiene este bloque: etiquetas, HTML y etiquetas de formulario."
+
+#: includes/class-wpecf7vb-admin.php:242
+msgid "Preview"
+msgstr "Vista previa"
+
+#: includes/class-wpecf7vb-admin.php:243
+msgid "Apply changes"
+msgstr "Aplicar cambios"
+
+#: includes/class-wpecf7vb-admin.php:244
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/class-wpecf7vb-admin.php:245
+msgid "Close"
+msgstr "Cerrar"
+
+#: includes/class-wpecf7vb-admin.php:246
+msgid "This form-tag uses a syntax the field editor cannot read. Edit it in the block source below."
+msgstr "Esta etiqueta usa una sintaxis que el editor de campos no puede leer. Edítala en el código del bloque, más abajo."
+
+#: includes/class-wpecf7vb-admin.php:247
+msgid "Names may use letters, numbers, hyphens, underscores, colons and periods, and must start with a letter."
+msgstr "Los nombres pueden llevar letras, números, guiones, guiones bajos, dos puntos y puntos, y deben empezar por una letra."
+
+#: includes/class-wpecf7vb-admin.php:248
+msgid "This block has no form-tags. Edit its HTML in the block source."
+msgstr "Este bloque no tiene etiquetas de formulario. Edita su HTML en el código del bloque."
+
+#: includes/class-wpecf7vb-admin.php:262
+msgid "Split"
+msgstr "Dividido"
+
+#: includes/class-wpecf7vb-admin.php:263
+#: includes/class-wpecf7vb-admin.php:303
+msgid "Code"
+msgstr "Código"
+
+#: includes/class-wpecf7vb-admin.php:264
+#: includes/class-wpecf7vb-admin.php:321
+msgid "Visual"
+msgstr "Visual"
+
+#. translators: %s: URL to the Contact Form 7 docs about the form template
+#: includes/class-wpecf7vb-admin.php:276
+#, php-format
+msgid "Drag blocks to reorder them, click one to find it in the code, or use the buttons below to add fields. <a href=\"%s\" target=\"_blank\" rel=\"noopener\">Editing form template</a>."
+msgstr "Arrastra los bloques para reordenarlos, haz clic en uno para encontrarlo en el código o usa los botones de abajo para añadir campos. <a href=\"%s\" target=\"_blank\" rel=\"noopener\">Editar la plantilla del formulario</a>."
+
+#: includes/class-wpecf7vb-admin.php:285
+msgid "Editor layout"
+msgstr "Disposición del editor"
+
+#: includes/class-wpecf7vb-admin.php:301
+msgid "Form template code"
+msgstr "Código de la plantilla del formulario"
+
+#: includes/class-wpecf7vb-admin.php:306
+msgid "Code color scheme"
+msgstr "Esquema de color del código"
+
+#: includes/class-wpecf7vb-admin.php:319
+msgid "Visual form"
+msgstr "Formulario visual"
+
+#: includes/class-wpecf7vb-admin.php:327
+msgid "Your form is empty."
+msgstr "Tu formulario está vacío."
+
+#: includes/class-wpecf7vb-admin.php:328
+msgid "Add fields with the buttons above or write the template in the code editor."
+msgstr "Añade campos con los botones de arriba o escribe la plantilla en el editor de código."
+
+#: includes/class-wpecf7vb-admin.php:345
+msgid "You are not allowed to edit this contact form."
+msgstr "No tienes permiso para editar este formulario de contacto."
+
+#: includes/class-wpecf7vb-admin.php:352
+msgid "Invalid request."
+msgstr "Solicitud no válida."
